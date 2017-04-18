@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D056E4281EA6BC6B00B477F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056E4271EA6BC6B00B477F3 /* AppDelegate.swift */; };
+		D056E42A1EA6BC6B00B477F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056E4291EA6BC6B00B477F3 /* ViewController.swift */; };
+		D056E42D1EA6BC6B00B477F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056E42B1EA6BC6B00B477F3 /* Main.storyboard */; };
+		D056E42F1EA6BC6B00B477F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D056E42E1EA6BC6B00B477F3 /* Assets.xcassets */; };
+		D056E4321EA6BC6B00B477F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056E4301EA6BC6B00B477F3 /* LaunchScreen.storyboard */; };
+		D056E43D1EA6BC6B00B477F3 /* fantasticviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056E43C1EA6BC6B00B477F3 /* fantasticviewTests.swift */; };
+		D056E4481EA6BC6B00B477F3 /* fantasticviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056E4471EA6BC6B00B477F3 /* fantasticviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D056E4391EA6BC6B00B477F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D056E41C1EA6BC6B00B477F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D056E4231EA6BC6B00B477F3;
+			remoteInfo = fantasticview;
+		};
+		D056E4441EA6BC6B00B477F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D056E41C1EA6BC6B00B477F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D056E4231EA6BC6B00B477F3;
+			remoteInfo = fantasticview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D056E4241EA6BC6B00B477F3 /* fantasticview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fantasticview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056E4271EA6BC6B00B477F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D056E4291EA6BC6B00B477F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D056E42C1EA6BC6B00B477F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D056E42E1EA6BC6B00B477F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D056E4311EA6BC6B00B477F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D056E4331EA6BC6B00B477F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D056E4381EA6BC6B00B477F3 /* fantasticviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantasticviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056E43C1EA6BC6B00B477F3 /* fantasticviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasticviewTests.swift; sourceTree = "<group>"; };
+		D056E43E1EA6BC6B00B477F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D056E4431EA6BC6B00B477F3 /* fantasticviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fantasticviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056E4471EA6BC6B00B477F3 /* fantasticviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasticviewUITests.swift; sourceTree = "<group>"; };
+		D056E4491EA6BC6B00B477F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D056E4211EA6BC6B00B477F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056E4351EA6BC6B00B477F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056E4401EA6BC6B00B477F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D056E41B1EA6BC6B00B477F3 = {
+			isa = PBXGroup;
+			children = (
+				D056E4261EA6BC6B00B477F3 /* fantasticview */,
+				D056E43B1EA6BC6B00B477F3 /* fantasticviewTests */,
+				D056E4461EA6BC6B00B477F3 /* fantasticviewUITests */,
+				D056E4251EA6BC6B00B477F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D056E4251EA6BC6B00B477F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D056E4241EA6BC6B00B477F3 /* fantasticview.app */,
+				D056E4381EA6BC6B00B477F3 /* fantasticviewTests.xctest */,
+				D056E4431EA6BC6B00B477F3 /* fantasticviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D056E4261EA6BC6B00B477F3 /* fantasticview */ = {
+			isa = PBXGroup;
+			children = (
+				D056E4271EA6BC6B00B477F3 /* AppDelegate.swift */,
+				D056E4291EA6BC6B00B477F3 /* ViewController.swift */,
+				D056E42B1EA6BC6B00B477F3 /* Main.storyboard */,
+				D056E42E1EA6BC6B00B477F3 /* Assets.xcassets */,
+				D056E4301EA6BC6B00B477F3 /* LaunchScreen.storyboard */,
+				D056E4331EA6BC6B00B477F3 /* Info.plist */,
+			);
+			path = fantasticview;
+			sourceTree = "<group>";
+		};
+		D056E43B1EA6BC6B00B477F3 /* fantasticviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D056E43C1EA6BC6B00B477F3 /* fantasticviewTests.swift */,
+				D056E43E1EA6BC6B00B477F3 /* Info.plist */,
+			);
+			path = fantasticviewTests;
+			sourceTree = "<group>";
+		};
+		D056E4461EA6BC6B00B477F3 /* fantasticviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D056E4471EA6BC6B00B477F3 /* fantasticviewUITests.swift */,
+				D056E4491EA6BC6B00B477F3 /* Info.plist */,
+			);
+			path = fantasticviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D056E4231EA6BC6B00B477F3 /* fantasticview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056E44C1EA6BC6B00B477F3 /* Build configuration list for PBXNativeTarget "fantasticview" */;
+			buildPhases = (
+				D056E4201EA6BC6B00B477F3 /* Sources */,
+				D056E4211EA6BC6B00B477F3 /* Frameworks */,
+				D056E4221EA6BC6B00B477F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fantasticview;
+			productName = fantasticview;
+			productReference = D056E4241EA6BC6B00B477F3 /* fantasticview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D056E4371EA6BC6B00B477F3 /* fantasticviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056E44F1EA6BC6B00B477F3 /* Build configuration list for PBXNativeTarget "fantasticviewTests" */;
+			buildPhases = (
+				D056E4341EA6BC6B00B477F3 /* Sources */,
+				D056E4351EA6BC6B00B477F3 /* Frameworks */,
+				D056E4361EA6BC6B00B477F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D056E43A1EA6BC6B00B477F3 /* PBXTargetDependency */,
+			);
+			name = fantasticviewTests;
+			productName = fantasticviewTests;
+			productReference = D056E4381EA6BC6B00B477F3 /* fantasticviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D056E4421EA6BC6B00B477F3 /* fantasticviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056E4521EA6BC6B00B477F3 /* Build configuration list for PBXNativeTarget "fantasticviewUITests" */;
+			buildPhases = (
+				D056E43F1EA6BC6B00B477F3 /* Sources */,
+				D056E4401EA6BC6B00B477F3 /* Frameworks */,
+				D056E4411EA6BC6B00B477F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D056E4451EA6BC6B00B477F3 /* PBXTargetDependency */,
+			);
+			name = fantasticviewUITests;
+			productName = fantasticviewUITests;
+			productReference = D056E4431EA6BC6B00B477F3 /* fantasticviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D056E41C1EA6BC6B00B477F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = postlet;
+				TargetAttributes = {
+					D056E4231EA6BC6B00B477F3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = LYWVWF962T;
+						ProvisioningStyle = Automatic;
+					};
+					D056E4371EA6BC6B00B477F3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = LYWVWF962T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D056E4231EA6BC6B00B477F3;
+					};
+					D056E4421EA6BC6B00B477F3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = LYWVWF962T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D056E4231EA6BC6B00B477F3;
+					};
+				};
+			};
+			buildConfigurationList = D056E41F1EA6BC6B00B477F3 /* Build configuration list for PBXProject "fantasticview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D056E41B1EA6BC6B00B477F3;
+			productRefGroup = D056E4251EA6BC6B00B477F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D056E4231EA6BC6B00B477F3 /* fantasticview */,
+				D056E4371EA6BC6B00B477F3 /* fantasticviewTests */,
+				D056E4421EA6BC6B00B477F3 /* fantasticviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D056E4221EA6BC6B00B477F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056E4321EA6BC6B00B477F3 /* LaunchScreen.storyboard in Resources */,
+				D056E42F1EA6BC6B00B477F3 /* Assets.xcassets in Resources */,
+				D056E42D1EA6BC6B00B477F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056E4361EA6BC6B00B477F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056E4411EA6BC6B00B477F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D056E4201EA6BC6B00B477F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056E42A1EA6BC6B00B477F3 /* ViewController.swift in Sources */,
+				D056E4281EA6BC6B00B477F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056E4341EA6BC6B00B477F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056E43D1EA6BC6B00B477F3 /* fantasticviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056E43F1EA6BC6B00B477F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056E4481EA6BC6B00B477F3 /* fantasticviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D056E43A1EA6BC6B00B477F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D056E4231EA6BC6B00B477F3 /* fantasticview */;
+			targetProxy = D056E4391EA6BC6B00B477F3 /* PBXContainerItemProxy */;
+		};
+		D056E4451EA6BC6B00B477F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D056E4231EA6BC6B00B477F3 /* fantasticview */;
+			targetProxy = D056E4441EA6BC6B00B477F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D056E42B1EA6BC6B00B477F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D056E42C1EA6BC6B00B477F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D056E4301EA6BC6B00B477F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D056E4311EA6BC6B00B477F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D056E44A1EA6BC6B00B477F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D056E44B1EA6BC6B00B477F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D056E44D1EA6BC6B00B477F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LYWVWF962T;
+				INFOPLIST_FILE = fantasticview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zillow.fantasticview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D056E44E1EA6BC6B00B477F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LYWVWF962T;
+				INFOPLIST_FILE = fantasticview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zillow.fantasticview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D056E4501EA6BC6B00B477F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LYWVWF962T;
+				INFOPLIST_FILE = fantasticviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zillow.fantasticviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantasticview.app/fantasticview";
+			};
+			name = Debug;
+		};
+		D056E4511EA6BC6B00B477F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LYWVWF962T;
+				INFOPLIST_FILE = fantasticviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zillow.fantasticviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantasticview.app/fantasticview";
+			};
+			name = Release;
+		};
+		D056E4531EA6BC6B00B477F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LYWVWF962T;
+				INFOPLIST_FILE = fantasticviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zillow.fantasticviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fantasticview;
+			};
+			name = Debug;
+		};
+		D056E4541EA6BC6B00B477F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LYWVWF962T;
+				INFOPLIST_FILE = fantasticviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zillow.fantasticviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fantasticview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D056E41F1EA6BC6B00B477F3 /* Build configuration list for PBXProject "fantasticview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056E44A1EA6BC6B00B477F3 /* Debug */,
+				D056E44B1EA6BC6B00B477F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D056E44C1EA6BC6B00B477F3 /* Build configuration list for PBXNativeTarget "fantasticview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056E44D1EA6BC6B00B477F3 /* Debug */,
+				D056E44E1EA6BC6B00B477F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D056E44F1EA6BC6B00B477F3 /* Build configuration list for PBXNativeTarget "fantasticviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056E4501EA6BC6B00B477F3 /* Debug */,
+				D056E4511EA6BC6B00B477F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D056E4521EA6BC6B00B477F3 /* Build configuration list for PBXNativeTarget "fantasticviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056E4531EA6BC6B00B477F3 /* Debug */,
+				D056E4541EA6BC6B00B477F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D056E41C1EA6BC6B00B477F3 /* Project object */;
+}
